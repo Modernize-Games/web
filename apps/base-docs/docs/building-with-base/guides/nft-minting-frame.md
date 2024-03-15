@@ -1,15 +1,7 @@
 ---
 title: 'Minting an NFT in a Frame'
-description: Make a Farcaster frame that allows users to min an NFT on your dime.
-keywords: [
-    Solidity,
-    ERC-721,
-    token,
-    NFT,
-    farcaster,
-    frames
-    farcaster frames,
-  ]
+description: Make a Farcaster frame that allows users to mint an NFT on your dime.
+keywords: [Solidity, ERC-721, token, NFT, farcaster, frames, farcaster frames]
 hide_table_of_contents: false
 ---
 
@@ -89,7 +81,7 @@ The route:
 
 Currently, you can't get the user to authorize a transaction from a frame, so you'll have to foot the bill to do a mint.
 
-Our strategy use the contract from the [Complex Onchain NFTs] guide, modified so that a designated address can mint for a provided address:
+Our strategy uses the contract from the [Complex Onchain NFTs] guide, modified so that a designated address can mint for a provided address:
 
 ```solidity
 function mintFor(address _recipient) public onlyOwner {
@@ -123,7 +115,7 @@ Create `.env.local` and add:
 
 Install dotenv with `yarn add dotenv`, then open `route.ts`.
 
-Add a new image in the `public` folder. Per the [Frames] docs, images must be a 1.91 to 1 aspect ration. We used a grey-scale copy of the NFT, but others show the full image, or another call to action.
+Add a new image in the `public` folder. Per the [Frames] docs, images must have a 1.91 to 1 aspect ratio. We used a grey-scale copy of the NFT, but others show the full image, or another call to action.
 
 For now, just use something you'll recognize as a placeholder.
 
@@ -569,7 +561,7 @@ In this tutorial, you learned how to create [Farcaster] frames. You then updated
 [Vercel]: https://vercel.com
 [Frame Validator]: https://warpcast.com/~/developers/frames
 [Base channel]: https://warpcast.com/~/channel/base
-[Complex Onchain NFTs]: https://https://docs.base.org/building-with-base/guides/complex-onchain-nfts
+[Complex Onchain NFTs]: /building-with-base/guides/complex-onchain-nfts
 [Frames]: https://warpcast.notion.site/Farcaster-Frames-4bd47fe97dc74a42a48d3a234636d8c5
 [viem]: https://viem.sh/
 [Basescan]: https://basescan.org/

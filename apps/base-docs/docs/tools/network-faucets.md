@@ -28,7 +28,7 @@ The [Superchain Faucet](https://app.optimism.io/faucet) provides testnet ETH for
 
 :::info
 
-The Superchain faucet allows developers to authenticate via their onchain identity. Developers that choose to authenticate via their onchain identity can claim more testnet ETH versus traditional faucets. For more information see the [FAQ](https://app.optimism.io/faucet).
+The Superchain faucet allows developers to authenticate via their onchain identity. Developers that choose to authenticate via their onchain identity can claim more testnet ETH versus traditional faucets. For more information, see the [FAQ](https://app.optimism.io/faucet).
 
 :::
 
@@ -77,6 +77,18 @@ Requests to QuickNode Faucet are limited to one drip every 12 hours.
 :::info
 
 Requests to LearnWeb3 faucet are limited to one claim per 24 hours.
+
+:::
+
+---
+
+## Ethereum Ecosystem Faucet
+
+The [Base Sepolia Faucet](https://www.ethereum-ecosystem.com/faucets/base-sepolia) is a free & easy to use testnet faucet for Base Sepolia with very generous drips that doesn't require users to log in. It's run by [Ethereum Ecosystem](https://www.ethereum-ecosystem.com).
+
+:::info
+
+Each wallet is restricted to receiving 0.5 ETH from this faucet every 24 hours.
 
 :::
 

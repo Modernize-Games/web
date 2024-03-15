@@ -67,6 +67,13 @@ module.exports = {
             },
             {
               type: 'category',
+              label: 'Account abstraction',
+              collapsible: true,
+              collapsed: true,
+              items: ['building-with-base/guides/account-abstraction-with-biconomy'],
+            },
+            {
+              type: 'category',
               label: 'Building with Foundry',
               collapsible: true,
               collapsed: true,
@@ -104,7 +111,32 @@ module.exports = {
               items: [
                 {
                   type: 'doc',
+                  id: 'building-with-base/guides/linked-minting-frame',
+                  className: 'sidebar-coding',
+                },
+                {
+                  type: 'doc',
                   id: 'building-with-base/guides/nft-minting-frame',
+                  className: 'sidebar-coding',
+                },
+                {
+                  type: 'doc',
+                  id: 'building-with-base/guides/deploy-frame-on-vercel',
+                  className: 'sidebar-coding',
+                },
+                {
+                  type: 'doc',
+                  id: 'building-with-base/guides/advanced-frame-behavior',
+                  className: 'sidebar-coding',
+                },
+                {
+                  type: 'doc',
+                  id: 'building-with-base/guides/hyperframes',
+                  className: 'sidebar-coding',
+                },
+                {
+                  type: 'doc',
+                  id: 'building-with-base/guides/frame-transactions',
                   className: 'sidebar-coding',
                 },
               ],
